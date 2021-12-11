@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Input Element Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script>
+        function msg() {
+          alert("Success!");
+        }
+        </script>
+</head>
+<body class="container" >
+    <form >
+        <h1>All types of HTML Input Elements</h1>
+        
+            <label for="name">Input type text</label>
+             <input type="text" name="name" placeholder="your name" required ><br>
+    
+             <label for="tel">Input type number</label>
+            <input type="tel" name="tel" maxlength="10" placeholder="your tel no" required><br>
+
+            <label for="number">Input Type Number</label>
+            <input type="number" name="num" placeholder="your lucky number"><br><br>
+    
+            <label for="email">Input type email</label>
+            <input type="email" name="email" placeholder="your email id" required><br><br>
+    
+            <label for="radio">Input type radio                      ------  Please select your Gender</label><br>
+            <div><input type="radio" name="radio" required>Male<br>
+                <input type="radio" name="radio">Female<br></div>
+            <br>
+    
+            <label for="date">Input Type Date</label><input type="date" name="date" required ><br><br>
+       
+            <label for="checkbox">Input Type Checkbox</label><br>
+            <div><input type="checkbox" name="checkbox"  >Yes<br>
+                <input type="checkbox" name="checkbox" >No</div>
+            <br>
+    
+            <label for="password">Input Type Password</label>
+            <input type="password" name="password" placeholder="***"><br>
+    
+            <label for="search">Input Type search</label>
+            <input type="search" name="search" ><br>
+    
+            <label for="File">Input Type file</label>
+            <input type="file" name="file" ><br>
+    
+            <label for="color">Input Type color</label>
+            <input type="color" name="color" ><br>
+            
+            <label for="range">Input Type range</label>
+            <input type="range" name="range" ><br>
+    
+            <label for="date-local">Input Type Local Date</label>
+            <input type="datetime-local" name="date-local" ><br>
+       
+            <label for="month">Input Type Month</label><input type="month" name="month" ><br>
+     
+            <label for="week">Input Type Week</label><input type="week" name="week" ><br>
+     
+            <label for="time">Input Type Time</label><input type="time" name="time" ><br>
+    
+            <label for="homepage">Input Type URL</label><input type="url" name="homepage" require placeholder="http://www.google.com" ><br>
+    
+            <label for="btn">Input Type Button</label><input type="button" name="btn" value="Click me" onclick="msg()"><br>
+        
+            <label for="submit">Input Type Submit</label><input type="submit" name="submit"><br>
+
+            <label for="reset">Input Type Reset</label><input type="reset" name="reset"><br>
+
+            <label for="image">Input Type Image</label> <input type="image" src="submit.gif" alt="Submit" width="20" height="20"><br><br>
+<br>
+</form>
+</body>
+</html>
